@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8B67DF628AFC2EA007963F3 /* RPSDecisionTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B67DF528AFC2EA007963F3 /* RPSDecisionTree.swift */; };
 		E8D6B4C328AD101500FDA1F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6B4C228AD101500FDA1F7 /* AppDelegate.swift */; };
 		E8D6B4C528AD101500FDA1F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6B4C428AD101500FDA1F7 /* SceneDelegate.swift */; };
 		E8D6B4C728AD101500FDA1F7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6B4C628AD101500FDA1F7 /* GameViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8B67DF528AFC2EA007963F3 /* RPSDecisionTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSDecisionTree.swift; sourceTree = "<group>"; };
 		E8D6B4BF28AD101500FDA1F7 /* RockPaperScissorsPredictor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissorsPredictor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D6B4C228AD101500FDA1F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8D6B4C428AD101500FDA1F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8B67DF428AFC2CC007963F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8B67DF528AFC2EA007963F3 /* RPSDecisionTree.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E8D6B4B628AD101500FDA1F7 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		E8D6B4C128AD101500FDA1F7 /* RockPaperScissorsPredictor */ = {
 			isa = PBXGroup;
 			children = (
+				E8B67DF428AFC2CC007963F3 /* Models */,
 				E8D6B4DB28AD363E00FDA1F7 /* ViewModels */,
 				E8D6B4DA28AD361A00FDA1F7 /* MoveMakers */,
 				E8D6B4C228AD101500FDA1F7 /* AppDelegate.swift */,
@@ -165,6 +176,7 @@
 			files = (
 				E8D6B4D928AD303100FDA1F7 /* AIMoveMaker.swift in Sources */,
 				E8D6B4DD28AD365400FDA1F7 /* GameViewModel.swift in Sources */,
+				E8B67DF628AFC2EA007963F3 /* RPSDecisionTree.swift in Sources */,
 				E8D6B4D728AD2C1A00FDA1F7 /* PlayerMoveMaker.swift in Sources */,
 				E8D6B4C728AD101500FDA1F7 /* GameViewController.swift in Sources */,
 				E8D6B4C328AD101500FDA1F7 /* AppDelegate.swift in Sources */,
